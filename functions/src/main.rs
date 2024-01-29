@@ -23,7 +23,6 @@ fn main() {
 fn another_function(x: i32, unit_label: char) {
     println!("The measurement is {x}{unit_label}");
 }
-
 // Functions with return values
 // return values are not named, but are declared after an arrow (->), these are necessary
 fn five() -> i32 {
